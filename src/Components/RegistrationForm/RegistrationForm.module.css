@@ -1,0 +1,70 @@
+.registerForm{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+height: 100vh;
+color: #000000;
+
+
+
+}
+
+.registerBackGround{
+    background-color:rgba(243, 243, 243, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px 0 ;
+    
+    
+}
+.registerBackGround div{
+    margin: 0 auto;
+}
+
+.registerBackGround h2{
+    margin-bottom: 10px;
+}
+.loginForm .brand{
+    height:355px;
+    width: 250px;
+   
+}
+
+
+
+.registerBackGround input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+
+.registerBackGround button{
+outline: none;
+border: 1px solid #5a4e2d;
+padding: 10px 20px;
+margin: 20px 0;
+cursor: pointer;
+background-color: #06347a;
+border-radius: 10px;
+transition: box-shadow 0.3s;
+font-size: 14px;
+color: #f7f7f7 ;
+
+}
+.registerBackGround button:hover{
+    box-shadow: 0 0 0 3px #de2381;
+}
+
+.registerBackGround input:focus{
+    box-shadow: 0 0 0 3px #6852e2;
+}

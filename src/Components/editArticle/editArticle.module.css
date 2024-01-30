@@ -1,0 +1,87 @@
+.editArticle {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  color: #000000;
+  
+}
+.editArticleWrapper {
+  background-color: rgba(243, 243, 243, 0.5);
+  padding: 25px 80px;
+  border-radius: 10px;
+}
+
+.logOut {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.logOut button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fcfcfc;
+  background-color: #b81e16;
+}
+.editArticleWrapper h1 {
+  margin-bottom: 30px;
+}
+.logOut button:hover {
+  opacity: 0.7;
+}
+
+.editArticleWrapper form input {
+    margin: 10px 0;
+  outline: none;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.editArticleWrapper form textarea {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+}
+
+.editArticleWrapper form select {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 220px;
+  height: 25px;
+}
+.editArticleWrapper form button {
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #06347a;
+  color: beige;
+}
+
+.editArticleWrapper form button:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 0 3px #de2381;
+}
+.darkMode{
+    background-color: rgba(0, 0, 0, 0.83);
+
+}
+.darkMode .editArticleWrapper{
+    background-color: #474545;
+    color: rgb(228, 230, 232);
+}

@@ -1,0 +1,90 @@
+.tablewrraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.tableForm {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(243, 243, 243, 0.5);
+  padding: 40px 100px;
+  border-radius: 5px;
+}
+.tableForm .logOut{
+    background-color: #de2323;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #f7f7f7;
+
+}
+
+.tablewrraper .tableForm .add {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.tablewrraper .tableForm .add button {
+  outline: none;
+  border: none;
+  background-color: #06347a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+
+.tablewrraper .tableForm .add button:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 0 3px #de2381;
+}
+
+.tablewrraper .tableForm .add button a {
+  color: #ffff;
+}
+
+.tablewrraper .tableForm a {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.tablewrraper th {
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.tablewrraper td {
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 5px;
+}
+td button{
+    background-color: transparent;
+}
+.tablewrraper table {
+  background-color: black;
+  border-radius: 5px;
+}
+.darkMode {
+  background-color: rgba(0, 0, 0, 0.84);
+}
+.darkMode .tableForm {
+  background-color: #474545;
+  color: #f7f7f7;
+}
+.darkMode .tableForm table{
+    background-color: #f7f7f7;
+}
+
+.darkMode .tableForm td,
+.darkMode .tableForm th{
+    background-color: rgb(5, 2, 52);
+}
+.darkMode .tableForm td a,
+.darkMode .tableForm td button
+{
+    color: #f7f7f7;
+}

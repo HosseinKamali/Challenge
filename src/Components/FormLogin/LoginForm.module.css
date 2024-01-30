@@ -1,0 +1,71 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: #000000;
+}
+
+.loginBackGround {
+  background-color: rgba(243, 243, 243, 0.5);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px 0;
+  transition: all 0.3s;
+}
+.loginBackGround div {
+  margin: auto;
+}
+
+.loginBackGround h2 {
+  margin-bottom: 10px;
+}
+
+.loginBackGround input {
+  margin-top: 5px;
+  outline: none;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.loginBackGround button {
+  outline: none;
+  border: 1px solid #5a4e2d;
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  background-color: rgb(5, 2, 52);
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+  font-size: 14px;
+  color: #f7f7f7;
+}
+.loginBackGround button:hover {
+  box-shadow: 0 0 0 3px #de2381;
+}
+
+.loginBackGround input:focus {
+  box-shadow: 0 0 0 3px #6852e2;
+}
+.loginBackGround div form div {
+  margin-top: 20px;
+}
+form div p {
+  color: red;
+}
+
+.darkMode .loginBackGround {
+  background-color: #474545;
+  color: #f7f7f7;
+}
+.darkMode {
+  background-color: rgba(0, 0, 0, 0.84);
+  
+}
